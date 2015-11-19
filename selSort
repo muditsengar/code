@@ -1,0 +1,33 @@
+package code;
+
+public class selSort {
+	//static int tmp; 
+	public static void main(String arg[]){
+		int [] a = {9,4,1,-8,7,6,8,1,3,2,0,-4};
+		selSort s = new selSort();
+		int[] c = s.sSort(a);
+		for(int i=0;i<a.length;i++)
+		System.out.print(c[i]+" ");
+		
+	}
+	int [] sSort(int [] a){
+		int i,j,l = a.length;
+		int[] c = new int[l];
+		for(i=0;i<l;i++){
+			for(j=0;j<l;j++)
+				if(a[i]<a[j])
+					a= swap(a,i,j);
+		}
+		for(i=0;i<a.length;i++)
+			System.out.print(a[i]+" ");
+		return a;
+	}
+	
+	int [] swap(int[] a, int i, int j){
+		int tm;
+		tm=i;
+		i=j;
+		j=tm;
+		return a;
+	}
+}
