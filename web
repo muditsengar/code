@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>NItin's web page</title>
+<style>
+table#t01 {
+    width:30%;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th	{
+    background-color: black;
+    color: white;
+}
+</style>
+</head>
+<body>
+<h3>JMETER Results</h3><br>
+Executive Summary:
+<table id="t01">
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>		
+    
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>	
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+  </tr>
+</table>
+<h3>Response Time</h3>
+<img  src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT47t7wF7Oyh6HQApGbiE2TAefEF0JVUtMPKH6JsNK2qXLlS4Rr-w">
+<h3>Server Side Mertics</h3>
+<b>Node 1:</b>
+<table>
+  <tr>
+    <th>First</th>
+    <th>Last</th>		
+    <th>Points</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>		
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>		
+    <td>94</td>
+  </tr>
+</table>
+<br>
+<b>Node 2:</b>
+<table>
+  <tr>
+    <th>First</th>
+    <th>Last</th>		
+    <th>Points</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>		
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>		
+    <td>94</td>
+  </tr>
+</table>
+<br>
+<b>Node 3:</b>
+<table>
+  <tr>
+    <th>First</th>
+    <th>Last</th>		
+    <th>Points</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>		
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>		
+    <td>94</td>
+  </tr>
+</table>
+<h3>App Neta</h3>
+CPU usage: 10% | Memory usage: 23%<br> 
+Layer Break Down:<img alt="" src="images.jpg">
+<h2>Load Graphs</h2>
+
+</body>
+</html>
